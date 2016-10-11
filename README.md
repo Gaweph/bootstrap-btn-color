@@ -13,3 +13,8 @@ Add any colour bootstrap button to your page
 
 * Bootstrap 3+
 * Jquery
+
+
+## Example
+
+https://gaweph.github.io/bootstrap-btn-color/
