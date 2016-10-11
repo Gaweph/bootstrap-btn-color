@@ -5,6 +5,8 @@ Add any colour bootstrap button to your page
 
 ``` html
 
+<script type="text/javascript" src="bootstrap-btn-color.1.0.0.min.js"></script>
+
 <button type="button" data-btn-color="337ab7" class="btn">Submit</button>
 
 ```
