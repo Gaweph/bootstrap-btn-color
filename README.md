@@ -16,5 +16,4 @@ Add any colour bootstrap button to your page
 
 
 ## Example
-
 https://gaweph.github.io/bootstrap-btn-color/
