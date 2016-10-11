@@ -11,5 +11,5 @@ Add any colour bootstrap button to your page
 
 ## Dependencies
 
-Bootstrap 3+
-Jquery
+* Bootstrap 3+
+* Jquery
