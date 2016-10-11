@@ -1,0 +1,51 @@
+/* #000 = {{color}} */
+/* #333 = {{bg}} */
+/* #222 = {{darkerbg}} */
+/* #111 = {{evendarkerbg}} */
+/* #444 = {{border}} */
+/* #555 = {{darkerborder}} */
+/* #666 = {{evendarkerborder}} */
+
+.btn-color-hex {
+    color: #000;
+    background-color: #333;
+    border-color: #444;
+}
+.btn-color-hex:hover {
+    color:  #000;
+    background-color: #222;
+    border-color: #555;
+}
+.btn-color-hex:focus, .btn-color-hex.focus {
+    color:  #000;
+    background-color: #111;
+    border-color: #666;
+}
+
+.btn-color-hex:active, .btn-color-hex.active,
+.open > .btn-color-hex.dropdown-toggle {
+    color:  #000;
+    background-color: #222;
+    border-color: #555;
+    background-image: none;
+}
+
+.btn-color-hex:active:hover, .btn-color-hex:active:focus, .btn-color-hex:active.focus, .btn-color-hex.active:hover, .btn-color-hex.active:focus, .btn-color-hex.active.focus,
+.open > .btn-color-hex.dropdown-toggle:hover,
+.open > .btn-color-hex.dropdown-toggle:focus,
+.open > .btn-color-hex.dropdown-toggle.focus {
+    color: #000;
+    background-color: #111;
+    border-color: #666;
+    background-image: none;
+}
+
+.btn-color-hex.disabled:focus, .btn-color-hex.disabled.focus, .btn-color-hex:disabled:focus, .btn-color-hex:disabled.focus {
+    background-color: #333;
+        border-color: #444;
+}
+
+.btn-color-hex.disabled:hover, .btn-color-hex:disabled:hover {
+    background-color: #333;
+        border-color: #444;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "bootstrap-btn-color",
+  "version": "1.0.0",
+  "description": "Allows for any colour to be applied as a bootstrap btn",
+  "main": "dist/bootstrap-btn-color.js",
+  "scripts": {
+    "build": "gulp inject-btn-css && gulp uglify"
+  },
+  "author": "Gareth V Williams",
+  "license": "MIT License",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-inject": "^4.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglifyjs": "^0.6.2"
+  }
+}
